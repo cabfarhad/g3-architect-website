@@ -59,4 +59,25 @@ nav li{
         margin-block-end: 1em;
         margin-inline-start: 0px;
         margin-inline-end: 0px;
+}
+.banner img{
+    margin:20px;
+    width:100%;
+}
+/* responsive for mobile devise */
+@media screen and (max-width:576){
+    header{
+        padding:20px;
     }
+    flex-direction:column;
+}
+@media screen and (min-width:576) and (max-width:992){
+    header{
+        padding:20px;
+
+    }
+    nav{
+        flex-direction:column;
+    }
+}
+
